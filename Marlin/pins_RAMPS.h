@@ -568,5 +568,7 @@
 
     #endif
   #endif // NEWPANEL
+#undef FAN_PIN
+#define FAN_PIN -1
 
 #endif // ULTRA_LCD

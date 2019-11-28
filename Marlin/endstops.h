@@ -30,7 +30,7 @@
 #include "MarlinConfig.h"
 
 #define VALIDATE_HOMING_ENDSTOPS
-
+#undef VALIDATE_HOMING_ENDSTOPS
 enum EndstopEnum : char {
   X_MIN,
   Y_MIN,
